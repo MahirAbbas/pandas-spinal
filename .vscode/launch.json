@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "scala",
+      "request": "launch",
+      "name": "calcCompile",
+      "mainClass": "pandasSpinal.calc.calcCompile",
+      "buildTarget": "file:/Users/mahir/fun/pandas-spinal/?id=projectname",
+      "args": [],
+      "jvmOptions": [],
+      "env": {}
+    },
+    {
+      "type": "scala",
+      "request": "launch",
+      "name": "compileDiv",
+      "mainClass": "pandasSpina.div.compileDiv",
+      "buildTarget": "file:/Users/mahir/fun/pandas-spinal/?id=projectname",
+      "args": [],
+      "jvmOptions": [],
+      "env": {}
+    }
+  ]
+}

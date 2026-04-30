@@ -1,0 +1,20 @@
+ghdl --std=08 vhdl/div.vhd -e div
+rename div div_hand
+design -stash hand
+
+design -reset
+ghdl --std=08 div.vhd -e div
+rename div div_spinal
+design -stash spinal
+
+design -reset
+design -copy-from hand div_hand
+design -copy-from spinal div_spinal
+read_verilog -formal formal/div_equiv_miter.v
+
+prep -top div_equiv_miter
+flatten
+async2sync
+dffunmap
+
+sat -seq 4 -tempinduct -prove-asserts -set-assumes div_equiv_miter
