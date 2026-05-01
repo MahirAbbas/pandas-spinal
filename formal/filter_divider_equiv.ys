@@ -1,0 +1,20 @@
+ghdl --std=08 vhdl/filter/divider.vhd -e divider
+rename divider divider_hand
+design -stash hand
+
+design -reset
+ghdl --std=08 filter.vhd -e Divider
+rename Divider Divider_spinal
+design -stash spinal
+
+design -reset
+design -copy-from hand divider_hand
+design -copy-from spinal Divider_spinal
+read_verilog -formal formal/filter_divider_equiv_miter.v
+
+prep -top filter_divider_equiv_miter
+flatten
+async2sync
+dffunmap
+
+sat -seq 40 -set-init-zero -prove-asserts -set-assumes filter_divider_equiv_miter

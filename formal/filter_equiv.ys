@@ -1,0 +1,22 @@
+ghdl --std=08 vhdl/filter/divider.vhd vhdl/filter/filter.vhd -e filter
+rename filter filter_hand
+design -stash hand
+
+design -reset
+ghdl --std=08 filter.vhd -e filter
+rename filter filter_spinal
+design -stash spinal
+
+design -reset
+design -copy-from hand filter_hand
+design -copy-from hand divider_Brtl_64_32
+design -copy-from spinal filter_spinal
+design -copy-from spinal divider_Barch
+read_verilog -formal formal/filter_equiv_miter.v
+
+prep -top filter_equiv_miter
+flatten
+async2sync
+dffunmap
+
+sat -seq 5 -set-init-zero -prove-asserts -set-assumes filter_equiv_miter

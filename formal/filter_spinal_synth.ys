@@ -1,0 +1,4 @@
+ghdl --std=08 filter.vhd -e filter
+prep -top filter
+synth -run coarse
+stat

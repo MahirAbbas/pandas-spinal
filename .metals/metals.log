@@ -1214,3 +1214,398 @@ INFO: compiler crashed due to an error in the Scala compiler, retrying with new 
 2026.04.30 15:23:06 INFO  time: compiled projectname in 0.56s[0m
 2026.04.30 15:24:35 INFO  compiling projectname (1 scala source)[0m
 2026.04.30 15:24:35 INFO  time: compiled projectname in 0.74s[0m
+2026.04.30 15:28:27 INFO  Shutting down server[0m
+2026.04.30 15:28:27 INFO  Memory monitor stopped[0m
+2026.04.30 15:28:27 INFO  shutting down Metals[0m
+2026.04.30 15:28:27 INFO  Shut down connection with build server.[0m
+2026.04.30 15:28:27 INFO  Shut down connection with build server.[0m
+2026.04.30 15:28:27 INFO  Shut down connection with build server.[0m
+2026.04.30 15:28:27 INFO  Exiting server[0m
+2026.04.30 16:24:44 INFO  Started: Metals version 1.6.7 in folders '/Users/mahir/fun/pandas-spinal' for client Neovim 0.12.2.[0m
+2026.04.30 16:24:44 INFO  Memory monitor started[0m
+2026.04.30 16:24:44 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.04.30 16:24:44 INFO  no build target found for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.04.30 16:24:44 INFO  Attempting to connect to the build server...[0m
+2026.04.30 16:24:44 INFO  Found a Bloop server running[0m
+2026.04.30 16:24:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mahir/fun/pandas-spinal/.metals/bsp.trace.json or /Users/mahir/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2026.04.30 16:24:44 INFO  Attempting to connect to the build server...[0m
+2026.04.30 16:24:44 INFO  Found a Bloop server running[0m
+2026.04.30 16:24:44 INFO  Attempting to connect to the build server...[0m
+2026.04.30 16:24:44 INFO  Found a Bloop server running[0m
+2026.04.30 16:24:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mahir/fun/pandas-spinal/project/project/.metals/bsp.trace.json or /Users/mahir/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2026.04.30 16:24:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mahir/fun/pandas-spinal/project/.metals/bsp.trace.json or /Users/mahir/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2026.04.30 16:24:44 INFO  time: Connected to build server in 0.32s[0m
+2026.04.30 16:24:45 INFO  Connected to Build server: Bloop v2.0.19[0m
+2026.04.30 16:24:45 WARN  2.13.14 is no longer supported in the current Metals versions, using the last known supported version 1.6.3[0m
+2026.04.30 16:24:46 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.04.30 16:24:46 INFO  time: indexed workspace in 2.21s[0m
+2026.04.30 16:26:36 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:26:36 INFO  time: compiled projectname in 0.49s[0m
+Apr 30, 2026 4:26:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 130
+2026.04.30 16:26:48 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:26:48 INFO  time: compiled projectname in 0.87s[0m
+Apr 30, 2026 4:27:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 149
+Apr 30, 2026 4:27:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 162
+Apr 30, 2026 4:28:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 163
+2026.04.30 16:28:28 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:28:28 INFO  time: compiled projectname in 0.18s[0m
+2026.04.30 16:28:37 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:28:37 INFO  time: compiled projectname in 0.14s[0m
+2026.04.30 16:28:53 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:28:53 INFO  time: compiled projectname in 0.75s[0m
+2026.04.30 16:29:07 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:29:07 INFO  time: compiled projectname in 0.12s[0m
+Apr 30, 2026 4:29:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 435
+2026.04.30 16:29:19 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:19 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:20 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:21 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:22 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:21 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:22 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:22 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:24 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:26 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:27 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:28 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:28 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:29 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:29 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:29 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:30 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:32 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:32 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:33 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:35 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:35 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:40 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:40 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:41 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:42 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:42 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:43 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:43 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:43 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:44 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:48 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:48 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:49 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:49 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:50 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:51 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:52 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:53 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:54 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:29:54 INFO  time: compiled projectname in 0.11s[0m
+2026.04.30 16:29:58 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:29:58 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:29:58 INFO  time: compiled projectname in 0.12s[0m
+2026.04.30 16:30:07 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:07 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:08 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:08 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:08 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:09 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:10 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:11 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:11 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:12 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:12 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:12 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:13 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:15 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:15 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:15 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:16 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:16 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:16 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:16 WARN  Could not load snapshot text for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala[0m
+2026.04.30 16:30:17 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:30:17 INFO  time: compiled projectname in 0.8s[0m
+2026.04.30 16:30:32 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:30:32 INFO  time: compiled projectname in 0.51s[0m
+2026.04.30 16:30:51 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:30:51 INFO  time: compiled projectname in 98ms[0m
+2026.04.30 16:30:55 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:30:55 INFO  time: compiled projectname in 0.47s[0m
+2026.04.30 16:31:31 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:31:31 INFO  time: compiled projectname in 0.49s[0m
+2026.04.30 16:32:11 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:32:11 INFO  time: compiled projectname in 0.48s[0m
+2026.04.30 16:33:15 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:33:15 INFO  time: compiled projectname in 0.49s[0m
+2026.04.30 16:34:24 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:34:24 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2026.04.30 16:34:24 INFO  time: compiled projectname in 0.52s[0m
+2026.04.30 16:34:38 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:34:38 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2026.04.30 16:34:38 INFO  time: compiled projectname in 0.48s[0m
+2026.04.30 16:34:48 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:34:48 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2026.04.30 16:34:48 INFO  time: compiled projectname in 0.48s[0m
+2026.04.30 16:34:56 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:34:56 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2026.04.30 16:34:56 INFO  time: compiled projectname in 0.43s[0m
+2026.04.30 16:38:45 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:38:45 INFO  time: compiled projectname in 0.13s[0m
+2026.04.30 16:38:59 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:38:59 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2026.04.30 16:38:59 INFO  time: compiled projectname in 0.49s[0m
+2026.04.30 16:39:10 INFO  compiling projectname (1 scala source)[0m
+2026.04.30 16:39:10 WARN  4 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2026.04.30 16:39:10 INFO  time: compiled projectname in 0.48s[0m
+2026.04.30 16:41:24 INFO  Shutting down server[0m
+2026.04.30 16:41:24 INFO  Memory monitor stopped[0m
+2026.04.30 16:41:24 INFO  shutting down Metals[0m
+2026.04.30 16:41:24 INFO  Shut down connection with build server.[0m
+2026.04.30 16:41:24 INFO  Shut down connection with build server.[0m
+2026.04.30 16:41:24 INFO  Shut down connection with build server.[0m
+2026.04.30 16:41:24 INFO  Exiting server[0m
+2026.05.01 10:26:48 INFO  Started: Metals version 1.6.7 in folders '/Users/mahir/fun/pandas-spinal' for client Neovim 0.12.2.[0m
+2026.05.01 10:26:48 INFO  Memory monitor started[0m
+2026.05.01 10:26:48 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.05.01 10:26:48 INFO  no build target found for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/divider.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.05.01 10:26:48 INFO  no build target found for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/divider.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.05.01 10:26:48 INFO  Attempting to connect to the build server...[0m
+2026.05.01 10:26:48 INFO  Found a Bloop server running[0m
+2026.05.01 10:26:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mahir/fun/pandas-spinal/.metals/bsp.trace.json or /Users/mahir/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2026.05.01 10:26:48 INFO  Attempting to connect to the build server...[0m
+2026.05.01 10:26:48 INFO  Found a Bloop server running[0m
+2026.05.01 10:26:48 INFO  Attempting to connect to the build server...[0m
+2026.05.01 10:26:48 INFO  Found a Bloop server running[0m
+2026.05.01 10:26:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mahir/fun/pandas-spinal/project/.metals/bsp.trace.json or /Users/mahir/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2026.05.01 10:26:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mahir/fun/pandas-spinal/project/project/.metals/bsp.trace.json or /Users/mahir/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2026.05.01 10:26:48 INFO  time: Connected to build server in 0.33s[0m
+2026.05.01 10:26:48 INFO  Connected to Build server: Bloop v2.0.19[0m
+2026.05.01 10:26:48 INFO  time: Imported build in 0.11s[0m
+2026.05.01 10:26:49 WARN  2.13.14 is no longer supported in the current Metals versions, using the last known supported version 1.6.3[0m
+2026.05.01 10:26:50 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.05.01 10:26:50 INFO  time: indexed workspace in 2.44s[0m
+May 01, 2026 10:26:56 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 01, 2026 10:27:04 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 01, 2026 10:31:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 83
+May 01, 2026 10:31:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 87
+May 01, 2026 10:33:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 111
+May 01, 2026 10:35:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 134
+May 01, 2026 10:37:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 165
+2026.05.01 10:38:22 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:38:23 INFO  time: compiled projectname in 1.41s[0m
+2026.05.01 10:38:42 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:38:42 INFO  time: compiled projectname in 0.66s[0m
+2026.05.01 10:38:42 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:38:43 INFO  time: compiled projectname in 0.52s[0m
+2026.05.01 10:43:06 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:43:07 INFO  time: compiled projectname in 1.3s[0m
+2026.05.01 10:44:35 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:44:36 INFO  time: compiled projectname in 1.39s[0m
+2026.05.01 10:47:31 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:47:32 INFO  time: compiled projectname in 1.37s[0m
+2026.05.01 10:49:12 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:49:13 INFO  time: compiled projectname in 1.31s[0m
+2026.05.01 10:49:26 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:49:26 INFO  time: compiled projectname in 0.71s[0m
+2026.05.01 10:50:45 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:50:46 INFO  time: compiled projectname in 1.39s[0m
+2026.05.01 10:51:19 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:51:19 INFO  time: compiled projectname in 0.73s[0m
+May 01, 2026 10:52:23 AM scala.meta.internal.pc.CompletionItemResolver fullDocstring
+WARNING: Error getting docstring for value div_enabled
+java.lang.IndexOutOfBoundsException: -1 is out of bounds (min 0, max 2)
+	at scala.collection.mutable.ArrayBuffer.apply(ArrayBuffer.scala:102)
+	at scala.reflect.internal.Types$Type.findMemberInternal$1(Types.scala:1030)
+	at scala.reflect.internal.Types$Type.findMember(Types.scala:1035)
+	at scala.reflect.internal.Types$Type.memberBasedOnName(Types.scala:661)
+	at scala.reflect.internal.Types$Type.member(Types.scala:625)
+	at scala.tools.nsc.typechecker.Contexts$SymbolLookup.nextDefinition$1(Contexts.scala:1442)
+	at scala.tools.nsc.typechecker.Contexts$SymbolLookup.apply(Contexts.scala:1516)
+	at scala.tools.nsc.typechecker.Contexts$Context.lookupSymbol(Contexts.scala:1282)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedIdent$2(Typers.scala:5663)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedIdentOrWildcard$1(Typers.scala:5732)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:6203)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6261)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$41(Typers.scala:5233)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:713)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:5235)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:5267)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:6205)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6261)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedSelectOrSuperCall$1(Typers.scala:6359)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:6206)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6261)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typed1$41(Typers.scala:5233)
+	at scala.tools.nsc.typechecker.Typers$Typer.silent(Typers.scala:713)
+	at scala.tools.nsc.typechecker.Typers$Typer.normalTypedApply$1(Typers.scala:5235)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedApply$1(Typers.scala:5267)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:6205)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6261)
+	at scala.tools.nsc.typechecker.Typers$Typer.computeType(Typers.scala:6350)
+	at scala.tools.nsc.typechecker.Namers$Namer.assignTypeToTree(Namers.scala:1105)
+	at scala.tools.nsc.typechecker.Namers$Namer.inferredValTpt$1(Namers.scala:1752)
+	at scala.tools.nsc.typechecker.Namers$Namer.valDefSig(Namers.scala:1765)
+	at scala.tools.nsc.typechecker.Namers$Namer.memberSig(Namers.scala:1953)
+	at scala.tools.nsc.typechecker.Namers$Namer.typeSig(Namers.scala:1903)
+	at scala.tools.nsc.typechecker.Namers$Namer$ValTypeCompleter.completeImpl(Namers.scala:918)
+	at scala.tools.nsc.typechecker.Namers$Namer$AccessorTypeCompleter.completeImpl(Namers.scala:942)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:2100)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:2098)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:2093)
+	at scala.reflect.internal.Symbols$Symbol.completeInfo(Symbols.scala:1566)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1538)
+	at scala.meta.internal.pc.CompletionItemResolver.fullDocstring(CompletionItemResolver.scala:71)
+	at scala.meta.internal.pc.CompletionItemResolver.$anonfun$handleSymbol$2(CompletionItemResolver.scala:43)
+	at scala.meta.internal.pc.ItemResolver.enrichDocs(ItemResolver.scala:75)
+	at scala.meta.internal.pc.ItemResolver.enrichDocs$(ItemResolver.scala:14)
+	at scala.meta.internal.pc.CompletionItemResolver.enrichDocs(CompletionItemResolver.scala:12)
+	at scala.meta.internal.pc.CompletionItemResolver.handleSymbol(CompletionItemResolver.scala:44)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:28)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:421)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:148)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:422)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:418)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:417)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:416)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$completionItemResolve$1(MetalsLspService.scala:1200)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.completionItemResolve(MetalsLspService.scala:1198)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$completionItemResolve$1(WorkspaceLspService.scala:615)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.completionItemResolve(WorkspaceLspService.scala:615)
+	at scala.meta.metals.lsp.DelegatingScalaService.completionItemResolve(DelegatingScalaService.scala:149)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:265)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:195)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2026.05.01 10:53:32 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:53:32 INFO  time: compiled projectname in 0.65s[0m
+2026.05.01 10:54:26 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:54:26 INFO  time: compiled projectname in 0.92s[0m
+2026.05.01 10:56:00 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:56:00 INFO  time: compiled projectname in 0.65s[0m
+2026.05.01 10:56:03 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:56:03 INFO  time: compiled projectname in 0.31s[0m
+2026.05.01 10:56:42 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:56:42 INFO  time: compiled projectname in 0.24s[0m
+2026.05.01 10:56:48 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:56:48 INFO  time: compiled projectname in 0.17s[0m
+2026.05.01 10:57:25 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:57:25 INFO  time: compiled projectname in 0.15s[0m
+2026.05.01 10:57:35 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:57:36 INFO  time: compiled projectname in 1.01s[0m
+2026.05.01 10:57:54 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:57:54 INFO  time: compiled projectname in 0.52s[0m
+2026.05.01 10:58:59 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 10:59:01 INFO  time: compiled projectname in 1.58s[0m
+2026.05.01 11:00:35 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 11:00:37 INFO  time: compiled projectname in 1.65s[0m
+2026.05.01 11:00:56 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 11:00:56 INFO  time: compiled projectname in 0.7s[0m
+2026.05.01 11:01:51 INFO  Shutting down server[0m
+2026.05.01 11:01:51 INFO  Memory monitor stopped[0m
+2026.05.01 11:01:51 INFO  shutting down Metals[0m
+2026.05.01 11:01:51 INFO  Shut down connection with build server.[0m
+2026.05.01 11:01:51 INFO  Shut down connection with build server.[0m
+2026.05.01 11:01:51 INFO  Shut down connection with build server.[0m
+2026.05.01 11:01:51 INFO  Exiting server[0m
+2026.05.01 14:27:45 INFO  Started: Metals version 1.6.7 in folders '/Users/mahir/fun/pandas-spinal' for client Neovim 0.12.2.[0m
+2026.05.01 14:27:45 INFO  Memory monitor started[0m
+2026.05.01 14:27:45 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.05.01 14:27:45 INFO  no build target found for /Users/mahir/fun/pandas-spinal/hw/spinal/filter/filter.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.05.01 14:27:46 INFO  Attempting to connect to the build server...[0m
+2026.05.01 14:27:46 INFO  Found a Bloop server running[0m
+2026.05.01 14:27:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mahir/fun/pandas-spinal/.metals/bsp.trace.json or /Users/mahir/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2026.05.01 14:27:46 INFO  Attempting to connect to the build server...[0m
+2026.05.01 14:27:46 INFO  Found a Bloop server running[0m
+2026.05.01 14:27:46 INFO  Attempting to connect to the build server...[0m
+2026.05.01 14:27:46 INFO  Found a Bloop server running[0m
+2026.05.01 14:27:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mahir/fun/pandas-spinal/project/.metals/bsp.trace.json or /Users/mahir/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2026.05.01 14:27:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mahir/fun/pandas-spinal/project/project/.metals/bsp.trace.json or /Users/mahir/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2026.05.01 14:27:46 INFO  time: Connected to build server in 0.32s[0m
+2026.05.01 14:27:46 INFO  Connected to Build server: Bloop v2.0.19[0m
+2026.05.01 14:27:46 WARN  2.13.14 is no longer supported in the current Metals versions, using the last known supported version 1.6.3[0m
+2026.05.01 14:27:49 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.05.01 14:27:49 INFO  time: indexed workspace in 3.31s[0m
+2026.05.01 14:28:37 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 14:28:37 INFO  time: compiled projectname in 0.56s[0m
+2026.05.01 14:28:59 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 14:29:00 INFO  time: compiled projectname in 1.19s[0m
+2026.05.01 14:30:45 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 14:30:47 INFO  time: compiled projectname in 1.68s[0m
+2026.05.01 14:32:09 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 14:32:11 INFO  time: compiled projectname in 1.6s[0m
+2026.05.01 14:32:32 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 14:32:32 INFO  time: compiled projectname in 0.67s[0m
+2026.05.01 14:35:03 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 14:35:04 INFO  time: compiled projectname in 1.57s[0m
+2026.05.01 14:35:45 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 14:35:45 INFO  time: compiled projectname in 0.74s[0m
+2026.05.01 14:37:06 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 14:37:06 INFO  time: compiled projectname in 0.62s[0m
+2026.05.01 14:39:05 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 14:39:07 INFO  time: compiled projectname in 1.35s[0m
+2026.05.01 14:39:48 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 14:39:48 INFO  time: compiled projectname in 0.71s[0m
+2026.05.01 14:43:16 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 14:43:16 INFO  time: compiled projectname in 0.63s[0m
+2026.05.01 14:44:09 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 14:44:10 INFO  time: compiled projectname in 1.09s[0m
+2026.05.01 15:21:50 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 15:21:52 INFO  time: compiled projectname in 1.41s[0m
+2026.05.01 15:21:55 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 15:21:55 INFO  time: compiled projectname in 0.71s[0m
+2026.05.01 15:23:56 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 15:23:56 INFO  time: compiled projectname in 0.55s[0m
+2026.05.01 15:24:01 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 15:24:01 INFO  time: compiled projectname in 0.93s[0m
+2026.05.01 15:24:08 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 15:24:08 INFO  time: compiled projectname in 0.61s[0m
+2026.05.01 15:24:17 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 15:24:17 INFO  time: compiled projectname in 0.56s[0m
+May 01, 2026 3:25:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1544
+2026.05.01 15:26:11 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 15:26:12 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.01 15:26:12 INFO  time: compiled projectname in 1.19s[0m
+2026.05.01 15:30:27 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 15:30:27 INFO  time: compiled projectname in 0.57s[0m
+2026.05.01 15:30:54 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 15:30:54 INFO  time: compiled projectname in 0.23s[0m
+2026.05.01 15:31:06 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 15:31:06 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.01 15:31:06 INFO  time: compiled projectname in 0.88s[0m
+2026.05.01 15:31:12 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 15:31:12 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.01 15:31:12 INFO  time: compiled projectname in 0.62s[0m
+2026.05.01 15:31:15 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 15:31:15 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.01 15:31:15 INFO  time: compiled projectname in 0.6s[0m
+2026.05.01 15:35:49 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 15:35:50 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.01 15:35:50 INFO  time: compiled projectname in 1.52s[0m
+2026.05.01 15:39:40 INFO  compiling projectname (1 scala source)[0m
+2026.05.01 15:39:41 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.01 15:39:41 INFO  time: compiled projectname in 1.68s[0m

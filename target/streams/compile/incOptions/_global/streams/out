@@ -1,11 +1,2 @@
 [debug] Created transactional ClassFileManager with tempDir = /Users/mahir/fun/pandas-spinal/target/scala-2.13/classes.bak
-[debug] About to delete class files:
-[debug] We backup class files:
-[debug] Registering generated classes:
-[debug] 	compileDividerLib.class
-[debug] 	DividerLib.class
-[debug] 	compileDividerLib$delayedInit$body.class
-[debug] 	compileDividerLib$.class
-[debug] 	DividerLib$.class
-[debug] 	DividerLib$$anon$1.class
 [debug] Removing the temporary directory used for backing up class files: /Users/mahir/fun/pandas-spinal/target/scala-2.13/classes.bak

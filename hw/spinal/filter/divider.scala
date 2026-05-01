@@ -3,15 +3,16 @@ package pandasSpinal.filter
 import spinal.core._
 import spinal.lib._
 
-class Divider(g_divider_size : Int = 64, g_divisor_size : Int = 32) extends Component {
-  val io = new Bundle {
+case class DividerIO(g_divider_size : Int = 64, g_divisor_size : Int = 32) extends Bundle {
     val enable = in port Bool()
     val divisor_i = in port UInt(g_divisor_size bits)
     val divider_i = in port UInt(g_divider_size bits)
     val quot_rdy = out port Reg(Bool())
     val quot = out port Reg(UInt(g_divider_size - g_divisor_size bits))
-  }
+}
 
+class Divider(g_divider_size : Int = 64, g_divisor_size : Int = 32) extends Component {
+  val io = DividerIO(g_divider_size, g_divisor_size)
 
   val stop    = Reg(Bool()) init(False)
   val enable  = Reg(Bool()) init(False)
@@ -35,6 +36,7 @@ class Divider(g_divider_size : Int = 64, g_divisor_size : Int = 32) extends Comp
   val offset = U(g_divisor_size -1, index.getWidth bits) - index
   //val window = divider(offset, g_divisor_size bits)
   val window = (divider >> offset).resize(g_divisor_size bits)
+  //val divider_comp = (window >= io.divisor_i) ? window | 0
 
   when(enable) {
     when (window >= io.divisor_i) {

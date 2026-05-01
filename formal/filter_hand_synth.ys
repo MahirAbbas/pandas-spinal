@@ -1,0 +1,4 @@
+ghdl --std=08 vhdl/filter/divider.vhd vhdl/filter/filter.vhd -e filter
+prep -top filter
+synth -run coarse
+stat

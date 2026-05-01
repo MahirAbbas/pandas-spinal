@@ -1,5 +1,6 @@
 -- Generator : SpinalHDL v1.12.3    git head : 591e64062329e5e2e2b81f4d52422948053edb97
 -- Component : calc
+-- Git hash  : 2e7de20413f9127924b0559f2c9e56a2b50875c1
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -444,10 +445,10 @@ use work.pkg_enum.all;
 
 entity calc is
   port(
-    io_a : in std_logic_vector(31 downto 0);
-    io_b : in std_logic_vector(31 downto 0);
-    io_c : in std_logic_vector(31 downto 0);
-    io_d : in std_logic_vector(31 downto 0);
+    io_inpa : in std_logic_vector(31 downto 0);
+    io_inpb : in std_logic_vector(31 downto 0);
+    io_inpc : in std_logic_vector(31 downto 0);
+    io_inpd : in std_logic_vector(31 downto 0);
     io_out_o : out std_logic_vector(31 downto 0);
     io_TYPEA : in std_logic_vector(31 downto 0);
     io_TYPEB : in std_logic_vector(31 downto 0);
@@ -461,39 +462,37 @@ end calc;
 
 architecture arch of calc is
 
-  signal inputs_0 : signed(33 downto 0);
-  signal inputs_1 : signed(33 downto 0);
-  signal inputs_2 : signed(33 downto 0);
-  signal inputs_3 : signed(33 downto 0);
-  signal zz_inputs_0 : signed(33 downto 0);
-  signal zz_inputs_1 : signed(33 downto 0);
-  signal zz_inputs_2 : signed(33 downto 0);
-  signal zz_inputs_3 : signed(33 downto 0);
+  signal inputA : signed(33 downto 0);
+  signal inputB : signed(33 downto 0);
+  signal inputC : signed(33 downto 0);
+  signal inputD : signed(33 downto 0);
+  signal zz_inputA : signed(33 downto 0);
+  signal zz_inputB : signed(33 downto 0);
+  signal zz_inputC : signed(33 downto 0);
+  signal zz_inputD : signed(33 downto 0);
   signal calculation : signed(33 downto 0);
-  signal outRegister : std_logic_vector(31 downto 0);
-  signal switch_calc_l25 : std_logic_vector(1 downto 0);
+  signal switch_calc_l27 : std_logic_vector(1 downto 0);
 begin
-  zz_inputs_0 <= pkg_resize(signed(io_a),34);
-  inputs_0 <= pkg_mux(pkg_extract(io_TYPEA,0),(- zz_inputs_0),zz_inputs_0);
-  zz_inputs_1 <= pkg_resize(signed(io_b),34);
-  inputs_1 <= pkg_mux(pkg_extract(io_TYPEB,0),(- zz_inputs_1),zz_inputs_1);
-  zz_inputs_2 <= pkg_resize(signed(io_c),34);
-  inputs_2 <= pkg_mux(pkg_extract(io_TYPEC,0),(- zz_inputs_2),zz_inputs_2);
-  zz_inputs_3 <= pkg_resize(signed(io_d),34);
-  inputs_3 <= pkg_mux(pkg_extract(io_TYPED,0),(- zz_inputs_3),zz_inputs_3);
-  calculation <= (((inputs_0 + inputs_1) + inputs_2) + inputs_3);
-  io_out_o <= outRegister;
-  switch_calc_l25 <= pkg_extract(io_SHIFT,1,0);
+  zz_inputA <= pkg_resize(signed(io_inpa),34);
+  inputA <= pkg_mux(pkg_extract(io_TYPEA,0),(- zz_inputA),zz_inputA);
+  zz_inputB <= pkg_resize(signed(io_inpb),34);
+  inputB <= pkg_mux(pkg_extract(io_TYPEB,0),(- zz_inputB),zz_inputB);
+  zz_inputC <= pkg_resize(signed(io_inpc),34);
+  inputC <= pkg_mux(pkg_extract(io_TYPEC,0),(- zz_inputC),zz_inputC);
+  zz_inputD <= pkg_resize(signed(io_inpd),34);
+  inputD <= pkg_mux(pkg_extract(io_TYPED,0),(- zz_inputD),zz_inputD);
+  calculation <= (((inputA + inputB) + inputC) + inputD);
+  switch_calc_l27 <= pkg_extract(io_SHIFT,1,0);
   process(clk)
   begin
     if rising_edge(clk) then
-      case switch_calc_l25 is
+      case switch_calc_l27 is
         when "00" =>
-          outRegister <= std_logic_vector(pkg_extract(calculation,31,0));
+          io_out_o <= std_logic_vector(pkg_extract(calculation,31,0));
         when "01" =>
-          outRegister <= std_logic_vector(pkg_extract(calculation,32,1));
+          io_out_o <= std_logic_vector(pkg_extract(calculation,32,1));
         when others =>
-          outRegister <= std_logic_vector(pkg_extract(calculation,33,2));
+          io_out_o <= std_logic_vector(pkg_extract(calculation,33,2));
       end case;
     end if;
   end process;
