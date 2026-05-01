@@ -1609,3 +1609,10 @@ WARNING: Unmatched cancel notification for request id 1544
 2026.05.01 15:39:40 INFO  compiling projectname (1 scala source)[0m
 2026.05.01 15:39:41 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
 2026.05.01 15:39:41 INFO  time: compiled projectname in 1.68s[0m
+2026.05.01 15:43:20 INFO  Shutting down server[0m
+2026.05.01 15:43:20 INFO  Memory monitor stopped[0m
+2026.05.01 15:43:20 INFO  shutting down Metals[0m
+2026.05.01 15:43:20 INFO  Shut down connection with build server.[0m
+2026.05.01 15:43:20 INFO  Shut down connection with build server.[0m
+2026.05.01 15:43:20 INFO  Shut down connection with build server.[0m
+2026.05.01 15:43:20 INFO  Exiting server[0m
